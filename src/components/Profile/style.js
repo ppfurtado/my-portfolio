@@ -3,18 +3,23 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 400px;
   height: 92%;
-  background: white;
+  background: transparent;
   position: absolute;
   left: 80px;
   top: 20px;
   border-radius: 4px;
   z-index: 1;
   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  @media (max-width: 1070px){
+
+  }
 `
+
+
 export const Section = styled.div`
   width: 100%;
   height: 90%;
-  background: #ccc;
+  background: transparent;
   display: flex;
   flex-direction: column;
 `
@@ -22,8 +27,12 @@ export const Section = styled.div`
 export const ContainerImage = styled.div`
   width: 100%;
   height: 50%;
-  background: pink;
+  background: transparent;
 `
+export const Imagebackground = styled.img`
+  border-radius: 4px;
+`
+
 export const ContainerImageProfile = styled.div`
   width: 102px;
   height: 102px;
@@ -35,6 +44,11 @@ export const ContainerImageProfile = styled.div`
   position: relative;
   top: -25%;
 `
+export const ImageProfile = styled.img`
+  width: 100%;
+  border-radius: 50%;
+`
+
 export const H1 = styled.h1`
   
 `

@@ -12,7 +12,7 @@ export default function Aside(){
       <S.Ul>
 
         <S.Li>
-          <S.A href="/#">
+          <S.A target="_blank" href="https://bslthemes.com/ryan/demo/index-gradient.html">
             <S.Span><IoMdPerson /></S.Span>
             <S.Span>About</S.Span>
           </S.A>
@@ -21,14 +21,14 @@ export default function Aside(){
         <S.Li>
           <S.A href="/#">
             <S.Span><TiDocumentText /></S.Span>
-             <S.Span>About</S.Span>
+             <S.Span>Resume</S.Span>
           </S.A>
         </S.Li>
 
         <S.Li>
           <S.A href="/#">
           <S.Span><MdWork /></S.Span>
-             <S.Span>About</S.Span>
+             <S.Span>Works</S.Span>
           </S.A>
 
         </S.Li>
@@ -36,14 +36,14 @@ export default function Aside(){
         <S.Li>
           <S.A href="/#">
             <S.Span><IoMdText /></S.Span>
-            <S.Span>About</S.Span>
+            <S.Span>Blog</S.Span>
           </S.A>
 
         </S.Li>
         <S.Li>
           <S.A href="/#">
             <S.Span><MdEmail /></S.Span>
-             <S.Span>About</S.Span>
+             <S.Span>Contact</S.Span>
           </S.A>
         </S.Li>
 

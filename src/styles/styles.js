@@ -22,4 +22,8 @@ export const Container = styled.div`
   position: relative;
   width: 82%;
   margin: 0 auto;
+
+  @media(max-width:1070px){
+    display: block;
+  }
 `

@@ -13,27 +13,27 @@ export default function Profile() {
 
       <S.Section>
         <S.ContainerImage>
-          <img src={Imgbackground} alt="Background" style={{ width: "100%" }}/>
+          <S.Imagebackground src={Imgbackground} alt="Background" style={{ width: "100%" }}/>
         </S.ContainerImage>
 
         <S.ContainerDescription>
           <S.ContainerImageProfile >
-            <img src={ImgProfile} alt="profile" style={{width: "100%", borderRadius:"50%"}} />
+            <S.ImageProfile src={ImgProfile} alt="profile" />
           </S.ContainerImageProfile >
             <S.H1>Pedro Furtado</S.H1>
             <S.H4>Web Developer</S.H4>
             <S.ContainerIcons>
 
-              <S.StyleIcons href="/">
+              <S.StyleIcons target="_blank" href="https://github.com/ppfurtado">
                   <FaGithubSquare size={25} />
 
               </S.StyleIcons>
 
-              <S.StyleIcons href="/">
+              <S.StyleIcons target="_blank" href="https://www.linkedin.com/in/pedro-paulo-furtado-engcomp/">
                   <FaLinkedin size={25} />
               </S.StyleIcons>
 
-              <S.StyleIcons href="/">
+              <S.StyleIcons target="_blnak" href="https://twitter.com/ppfurtado">
                   <FaTwitterSquare size={25} /> 
               </S.StyleIcons>
 

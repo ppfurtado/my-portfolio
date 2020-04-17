@@ -7,7 +7,8 @@ export const Container = styled.div`
   top: 40px;
   z-index: 100;
   border-radius: 4px;
-
+  @media (max-width:1070px) {
+  }
 `
 export const Ul = styled.ul`
   display: grid;
@@ -29,7 +30,7 @@ export const A = styled.a`
   justify-items: center;
   text-decoration: none;
   
-  ${Span}:hover &{
-    background: #78cc6d;
+  :hover(Span) {
+    color: #78cc6d;
   }
 `
